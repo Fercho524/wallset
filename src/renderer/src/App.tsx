@@ -1,13 +1,15 @@
-import Versions from './components/Versions'
-import Gallery from './components/Gallery'
+import Dashboard from "./components/Dashboard";
+import { PaletteProvider } from "./theme/PaletteProvider";
+import WallpaperList from "./pages/WallpaperList";
 
-function App(): React.JSX.Element {
+
+function App() {
   return (
-    <>
-      <Gallery/>
-      <Versions></Versions>
-    </>
-  )
+    <PaletteProvider>
+      <WallpaperList/>
+    </PaletteProvider>
+
+  );
 }
 
-export default App
+export default App;

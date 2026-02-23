@@ -1,0 +1,26 @@
+{
+  "dashboard": "Dashboard",
+  "nav": {
+    "home": "Home",
+    "files": "Files",
+    "settings": "Settings"
+  },
+  "actions": {
+    "primary": "Action",
+    "button": "Button"
+  },
+  "cards": {
+    "primary": {
+      "title": "Primary Card",
+      "description": "Example of a neutral background card."
+    },
+    "secondary": {
+      "title": "Secondary Card",
+      "description": "Perfect for secondary content."
+    },
+    "tertiary": {
+      "title": "Tertiary Card",
+      "description": "Ideal for highlighting information."
+    }
+  }
+}

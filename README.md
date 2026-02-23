@@ -32,3 +32,37 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+
+
+```tsx
+<ThemeProvider>
+    <App />
+</ThemeProvider>
+```
+
+```tsx
+const { theme, toggleTheme } = useTheme();
+```
+
+
+
+```tsx
+const { palette, setPalette } = usePalette(lightPalette);
+```
+
+```tsx
+
+```
+
+```tsx
+
+```
+
+```tsx
+
+```
+
+```tsx
+
+```

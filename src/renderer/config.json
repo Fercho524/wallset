@@ -1,0 +1,31 @@
+{
+    "explorerOptions" : {
+        "folder" : "/home/fercho/Imágenes/Wallpapers",
+        "sortBy" : "date",
+        "order"  : "asc",
+        "foldersFirst" : true,
+        "recursive" : true,
+        "showHidden" : true,
+        "viewType" : "grid",
+        "showFilenames" : true
+    },
+    "ajustOptions" : {
+        "ajust" : "filled",
+        "screen" : "all"
+    },
+    "wallpaperOptions" : {
+        "backend" : "swaybg",
+        "type" : "image"
+    },
+    "presentationOptions": {
+        "changeEachMinutes" : 30,
+        "sortBy" : "date",
+        "order"  : "asc",
+        "random" : true
+    },
+    "general" : {
+        "language" : "es",
+        "postCommand" : "~/.bin/theme/wal.sh",
+        "currentWallpaper" : "imagen.png"
+    }
+}
